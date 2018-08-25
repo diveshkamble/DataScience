@@ -1,0 +1,6 @@
+fo=open(r"c:\python\student.txt","wt")
+print("Name of file:",fo.name)
+print("closed or not :",fo.closed)
+print("open mode:",fo.mode)
+fo.close()
+print("closed or nor : ",fo.closed)
